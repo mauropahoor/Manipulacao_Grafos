@@ -1,1 +1,14 @@
 # Manipulacao_Grafos
+
+Programa em C para manipular grafos e realizar algoritmos a partir deles. Utiliza o gerador de documentação Doxygen para melhor entendimento do código.
+
+Compilar:
+
+gcc src/main.c src/grafo.c -o programa_grafos
+
+Casos de teste (Pasta data/):
+
+grafo_nao_dirigido_nao_valorado.txt -> Ideal para testar BFS/DFS e Graus.
+grafo_nao_dirigido_valorado.txt -> Ideal para testar a AGM (Prim).
+digrafo_nao_valorado.txt -> Ideal para testar graus de entrada/saída.
+digrafo_valorado.txt -> Ideal para testar Dijkstra e validação de bloqueio do Prim.
